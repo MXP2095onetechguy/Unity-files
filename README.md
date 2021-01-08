@@ -7,6 +7,6 @@ you need winrar or unrar to extract these:
 https://www.win-rar.com/download.html?L=0
 i hope your network is fast to download this fast enough
 the source code is avilable in packages
-sonn there will be a way to navigate the paclage for project
-----------------------------------------------------
+# sonn there will be a way to navigate the paclage for project
+# ----------------------------------------------------
 # No pull request allowed
