@@ -2,7 +2,7 @@
 # # Warning!: some files are to BEEG! #
 this is the place for some stuff
 this is also the place where my unity project is stored
-all files are stored in RAR
+all files are stored in RAR except for extremley big file
 you need winrar or unrar to extract these:
 https://www.win-rar.com/download.html?L=0
 i hope your network is fast to download this fast enough
