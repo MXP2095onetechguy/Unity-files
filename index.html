@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <head>
   <title>MXP pages</title>
+  <script type="text/javascript" src="https://static.itch.io/api.js"></script>
   <link rel="shortcut icon" href="onetechguy.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+  <script type="text/javascript">
+  Itch.attachBuyButton(document.getElementById("buy_button"), {
+    // replace the following with the correct information about your game
+    user: "mxp-2095onetechguy",
+    game: "fps-be-untitled"
+  });
+</script>
 <h1>MXP pages</h1>
 <a href="get mused.html">get mused!</a>
   <a href="html search.html">use my search engine</a>
@@ -19,6 +27,6 @@
   <hr>
   <a href="mailto:2000onetechguy@gmail.com">mail me!</a>
   <br>
-  <iframe frameborder="0" src="https://itch.io/embed/891114?linkback=true" width="552" height="167"><a href="https://mxp-2095onetechguy.itch.io/fps-be-untitled">FPS be untitled by MXP 2095onetechguy</a></iframe>
+  <button id="buy_button">Grab My Gaim!</button>
 </body>
 </html>
