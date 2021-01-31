@@ -5,7 +5,6 @@ table, th, td {
 body {
   background-color: Lime;
 }
-}
 h1 {
   font-family:"Lucida Console", "Courier New", monospace;
   color: white;
@@ -15,4 +14,8 @@ a {
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family:"Lucida Console", "Courier New", monospace;
+  color: white;
 }
