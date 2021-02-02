@@ -3973,6 +3973,16 @@ ul.list_empty {
     background: url(../images/scroll-top-arrow.png) no-repeat left top;
 	z-index: 999;
 }
+table, td, tr {
+	  background-color: #ccff00;
+  border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+th {
+	  background-color: #00ff00;
+	text-align: center;
+}
 
 
 
