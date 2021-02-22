@@ -4,7 +4,8 @@
 </head>
 <body>
   <div id="container></div>
-           <script>
+  <script src="ruffle.js"></script>
+  <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
@@ -13,7 +14,6 @@
         container.appendChild(player);
         player.load("ag-bfdi.swf");
     });
-</script>
-<script src="path/to/ruffle/ruffle.js"></script>
+   </script>
 </body>
 </html>
