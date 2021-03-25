@@ -2,10 +2,13 @@
 <head>
     <title>MXP pages Get Mused</title>
       <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
 </head>
 <body>
     <h1>Get mused</h1>
     <img src="slider-img.png" alt="Girl slider image.">
+    <p id="me">click me</p>
+    <div id="main">
     <p>once you see, no going back!</p>
     <video loop id="haha">
         <source src="Rick_Astley_Never_Gonna_Give_You_Up.mp4" type="video/mp4">
@@ -16,9 +19,16 @@
         video.oncanplaythrough = function() {
             video.play();
         }
+        $( document ).ready(function() {
+            $("#main").hide();
+        });
+        $("#me").click(function(){
+          $("#main").show();
+        });
         </script>
     <!--<audio loop autoplay>
   <source src="Rick_Astley_-_Never_Gonna_Give_You_Up_Qoret.com.mp3" type="audio/mpeg">
 </audio>-->
+    </div>
 </body>
 </html>
